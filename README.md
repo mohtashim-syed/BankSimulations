@@ -7,7 +7,7 @@ Language: Java
 
 This project simulates a multithreaded bank environment where 3 tellers serve 50 customers performing deposit or withdrawal transactions. Access to the bank is limited to 2 customers at a time through a semaphore-controlled door. Customers must wait for the bank to open (when all tellers are ready), and then line up. Tellers interact with one customer at a time, and depending on the transaction type, they either go to the safe (at most 2 tellers can access at once), or also request manager permission (1 teller at a time).
 
-To compile the program on cs1/cs2 or any standard terminal, navigate to the directory containing the files and run:  
+To compile the program:  
 `javac *.java`
 
 This will compile all Java files in the project.
